@@ -11,7 +11,7 @@ import SwiftUI
 struct Poli_Iasi_ArenaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

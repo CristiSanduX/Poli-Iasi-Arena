@@ -11,6 +11,7 @@
 		1C02837D29D4E5C90004EAD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C02837C29D4E5C90004EAD5 /* ContentView.swift */; };
 		1C02837F29D4E5CA0004EAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C02837E29D4E5CA0004EAD5 /* Assets.xcassets */; };
 		1C02838229D4E5CA0004EAD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C02838129D4E5CA0004EAD5 /* Preview Assets.xcassets */; };
+		1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1C02837C29D4E5C90004EAD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C02837E29D4E5CA0004EAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C02838129D4E5CA0004EAD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Poli-Iasi-Arena-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		1C02837929D4E5C90004EAD5 /* Poli Iasi Arena */ = {
 			isa = PBXGroup;
 			children = (
+				1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */,
 				1C02837A29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift */,
 				1C02837C29D4E5C90004EAD5 /* ContentView.swift */,
 				1C02837E29D4E5CA0004EAD5 /* Assets.xcassets */,
 				1C02838029D4E5CA0004EAD5 /* Preview Content */,
+				1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */,
 			);
 			path = "Poli Iasi Arena";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				1C02837D29D4E5C90004EAD5 /* ContentView.swift in Sources */,
 				1C02837B29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift in Sources */,
+				1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +276,7 @@
 				DEVELOPMENT_TEAM = P43649KGQW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Poli-Iasi-Arena-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +305,7 @@
 				DEVELOPMENT_TEAM = P43649KGQW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Poli-Iasi-Arena-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
