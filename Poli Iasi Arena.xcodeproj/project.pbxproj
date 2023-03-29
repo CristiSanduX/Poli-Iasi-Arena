@@ -13,6 +13,7 @@
 		1C02838229D4E5CA0004EAD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C02838129D4E5CA0004EAD5 /* Preview Assets.xcassets */; };
 		1C0ACD5829D4EDD2003E5BFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C0ACD5729D4EDD2003E5BFC /* GoogleService-Info.plist */; };
 		1C0ACD5B29D4EE1B003E5BFC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1C0ACD5A29D4EE1B003E5BFC /* FirebaseAuth */; };
+		1C0ACD6129D4F0FB003E5BFC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */; };
 		1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		1C02837E29D4E5CA0004EAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C02838129D4E5CA0004EAD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C0ACD5729D4EDD2003E5BFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Poli-Iasi-Arena-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 		1C02837929D4E5C90004EAD5 /* Poli Iasi Arena */ = {
 			isa = PBXGroup;
 			children = (
+				1C0ACD5F29D4F0E7003E5BFC /* AuthViews */,
 				1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */,
 				1C0ACD5729D4EDD2003E5BFC /* GoogleService-Info.plist */,
 				1C02837A29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift */,
@@ -75,6 +78,14 @@
 				1C02838129D4E5CA0004EAD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C0ACD5F29D4F0E7003E5BFC /* AuthViews */ = {
+			isa = PBXGroup;
+			children = (
+				1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */,
+			);
+			path = AuthViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			files = (
 				1C02837D29D4E5C90004EAD5 /* ContentView.swift in Sources */,
 				1C02837B29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift in Sources */,
+				1C0ACD6129D4F0FB003E5BFC /* LoginView.swift in Sources */,
 				1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
