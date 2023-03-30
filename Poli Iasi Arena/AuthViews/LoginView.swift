@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
     
@@ -87,7 +88,16 @@ struct LoginView: View {
                 Spacer()
                 
                 Button{
-                    
+                    Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                        if let error = error {
+                            print(error)
+                            return
+                        }
+                        if let authResult = authResult {
+                            print(authResult.user.uid)
+                        }
+                        
+                    }
                 } label: {
                     Text("Autentifică-te")
                         .foregroundColor(.black)
