@@ -15,6 +15,7 @@
 		1C0ACD5B29D4EE1B003E5BFC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1C0ACD5A29D4EE1B003E5BFC /* FirebaseAuth */; };
 		1C0ACD6129D4F0FB003E5BFC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */; };
 		1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */; };
+		1C71C19629D51190003A8BD9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71C19529D51190003A8BD9 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Poli-Iasi-Arena-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1C71C19529D51190003A8BD9 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		1C02837929D4E5C90004EAD5 /* Poli Iasi Arena */ = {
 			isa = PBXGroup;
 			children = (
+				1C71C19429D51159003A8BD9 /* Extensions */,
 				1C0ACD5F29D4F0E7003E5BFC /* AuthViews */,
 				1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */,
 				1C0ACD5729D4EDD2003E5BFC /* GoogleService-Info.plist */,
@@ -86,6 +89,14 @@
 				1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */,
 			);
 			path = AuthViews;
+			sourceTree = "<group>";
+		};
+		1C71C19429D51159003A8BD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C71C19529D51190003A8BD9 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			files = (
 				1C02837D29D4E5C90004EAD5 /* ContentView.swift in Sources */,
 				1C02837B29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift in Sources */,
+				1C71C19629D51190003A8BD9 /* String.swift in Sources */,
 				1C0ACD6129D4F0FB003E5BFC /* LoginView.swift in Sources */,
 				1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */,
 			);

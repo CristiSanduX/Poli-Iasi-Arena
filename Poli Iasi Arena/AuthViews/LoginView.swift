@@ -35,9 +35,12 @@ struct LoginView: View {
                     TextField("E-mail",text: $email)
                         .foregroundColor(Color.black)
                     Spacer()
-                    Image(systemName: "checkmark")
-                        .fontWeight(.bold)
-                        .foregroundColor(.green)
+                    if (email.count != 0) {
+                        Image(systemName: email.isValidEmail() ? "checkmark" : "xmark")
+                            .fontWeight(.bold)
+                            .foregroundColor(email.isValidEmail() ? .green : .red)
+                    }
+                    
                 }
                 .padding()
                 .overlay(
@@ -50,12 +53,16 @@ struct LoginView: View {
                 HStack {
                     Image(systemName: "lock")
                         .foregroundColor(.black)
-                    TextField("Parolă",text: $password)
+                    SecureField("Parolă",text: $password)
                         .foregroundColor(Color.black)
                     Spacer()
-                    Image(systemName: "checkmark")
-                        .fontWeight(.bold)
-                        .foregroundColor(.green)
+                    if (password.count != 0) {
+                        Image(systemName: password.isValidPassword(password) ? "checkmark" : "xmark")
+                            .fontWeight(.bold)
+                            .foregroundColor(password.isValidPassword(password) ? .green : .red)
+                        
+                    }
+                    
                 }
                 .padding()
                 .overlay(
