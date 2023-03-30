@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @Binding var currentShowingView: String
+    
     @State private var email: String = ""
     @State private var password: String = ""
     
@@ -74,7 +76,11 @@ struct LoginView: View {
                 
                 
                 
-                Button(action: {}) {
+                Button(action: {
+                    withAnimation{
+                        self.currentShowingView = "signup"
+                    }
+                }) {
                     Text("Nu ai cont?")
                         .foregroundColor(.blue.opacity(0.7))
                 }
@@ -101,8 +107,4 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
-    }
-}
+

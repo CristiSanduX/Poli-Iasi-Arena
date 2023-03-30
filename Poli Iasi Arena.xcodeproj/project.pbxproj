@@ -17,6 +17,7 @@
 		1C28E94F29D4EAAA00A61DD7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E94E29D4EAAA00A61DD7 /* SplashScreenView.swift */; };
 		1C71C19629D51190003A8BD9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71C19529D51190003A8BD9 /* String.swift */; };
 		1CC04B0B29D5782D00747E85 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC04B0A29D5782D00747E85 /* SignUpView.swift */; };
+		1CC04B0D29D57B1800747E85 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC04B0C29D57B1800747E85 /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1C28E95029D4EC4500A61DD7 /* Poli-Iasi-Arena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Poli-Iasi-Arena-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1C71C19529D51190003A8BD9 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		1CC04B0A29D5782D00747E85 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1CC04B0C29D57B1800747E85 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				1C0ACD6029D4F0FB003E5BFC /* LoginView.swift */,
 				1CC04B0A29D5782D00747E85 /* SignUpView.swift */,
+				1CC04B0C29D57B1800747E85 /* AuthView.swift */,
 			);
 			path = AuthViews;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC04B0D29D57B1800747E85 /* AuthView.swift in Sources */,
 				1C02837D29D4E5C90004EAD5 /* ContentView.swift in Sources */,
 				1C02837B29D4E5C90004EAD5 /* Poli_Iasi_ArenaApp.swift in Sources */,
 				1C71C19629D51190003A8BD9 /* String.swift in Sources */,
