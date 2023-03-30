@@ -20,10 +20,10 @@ extension String {
     // minimum 8 characters
     // min 1 special char
     // min 1 uppercase char
-    func isValidPassword(_ password: String) -> Bool {
-        let passwordRegex = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])(?=.*[A-Z]).{8,}$")
+    func isValidPassword() -> Bool {
+        let passwordRegex = try! NSRegularExpression(pattern: "^(?=.*[a-z])(?=.*[$@$#!%*?&])(?=.*[A-Z]).{8,}$")
         
-        return passwordRegex.evaluate(with: password)
+        return passwordRegex.firstMatch(in: self, range: NSRange(location: 0, length: count)) != nil
     }
 }
 

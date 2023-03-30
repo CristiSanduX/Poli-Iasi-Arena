@@ -57,9 +57,9 @@ struct LoginView: View {
                         .foregroundColor(Color.black)
                     Spacer()
                     if (password.count != 0) {
-                        Image(systemName: password.isValidPassword(password) ? "checkmark" : "xmark")
+                        Image(systemName: password.isValidPassword() ? "checkmark" : "xmark")
                             .fontWeight(.bold)
-                            .foregroundColor(password.isValidPassword(password) ? .green : .red)
+                            .foregroundColor(password.isValidPassword() ? .green : .red)
                         
                     }
                     
